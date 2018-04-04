@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Navigation } from './components';
 
 class App extends Component {
   render() {
@@ -27,15 +28,7 @@ class App extends Component {
               </span>
             </div>
           </div>
-          <nav className="header__nav">
-            <ul className="header__nav-list">
-              <li>Productos</li>
-              <li>Plan Amigo</li>
-              <li>Nosotros</li>
-              <li>Calculadora de Prestamos</li>
-              <li>Solicitar Préstamo</li>
-            </ul>
-          </nav>
+          <Navigation />
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
