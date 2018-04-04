@@ -31,6 +31,7 @@
   width: 110px;
 }
 .header__nav {
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
 }
 .header__nav-content {
   max-width: 1080px;
@@ -39,6 +40,7 @@
   height: 60px;
   text-align: center;
   padding-top: 20px;
+  position: relative;
 }
 .header__nav-list li.menu-dropdown {
   position: relative;
@@ -49,24 +51,74 @@
   top: 9px;
   right: -18px;
 }
-.btn:link,
-.btn:visited {
-  text-decoration: none;
-  display: inline-block;
+
+.hamburguer-icon {
+  display: none;
+  width: 20px;
+  float: right;
   cursor: pointer;
+  margin-top: 10px;
 }
-.btn--solid {
-  border: 1px solid #339966;
-  border-radius: 12px;
-  color: white !important;
-  font-weight: bold;
-  padding: 0 10px;
-  background-color: #339966;
+.hamburguer-icon > div {
+  border: 1px solid blue;
 }
-.btn--clear {
-  border: 1px solid #339966;
-  border-radius: 12px;
-  color: #339966 !important;
-  font-weight: bold;
-  padding: 0 10px;
+.hamburguer-icon > div:not(:last-child) {
+  margin-bottom: 5px;
+}
+.header__nav-mobile {
+  background-color: #fff;
+  position: absolute;
+  border-top: 4px solid blue;
+  top: 80px;
+  left: 0;
+  right: 0;
+  padding: 5%;
+  font-weight: 700;
+  font-size: 12px;
+}
+.header__nav-list-mobile {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.header__nav-list-mobile li:not(:last-child) {
+  text-align: left;
+}
+
+.header__nav-item-link:link,
+.header__nav-item-link:visited,
+.header__nav-item-link:active {
+  text-decoration: none;
+  color: black;
+}
+.header__nav-item-link--mobile {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 10px 20px;
+}
+.buttons-container-mobile a:not(:last-child) {
+  margin: 5px 0;
+}
+.header__mobile-sub-menu {
+  list-style-type: none;
+}
+.header__sub-menu-link-item {
+  padding: 10px;
+  display: block;
+}
+.header__sub-menu-link-item:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+@media screen and (max-width: 955px) {
+  .hamburguer-icon {
+    display: block;
+  }
+  .header__nav-list {
+    display: none;
+  }
+}
+@media screen and (min-width: 955px) {
+  .header__nav-mobile {
+    display: none;
+  }
 }

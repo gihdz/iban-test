@@ -1,0 +1,27 @@
+.btn {
+  line-height: 40px;
+  padding: 0 10px;
+}
+.btn--full {
+  width: 100%;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+.btn--solid {
+  border: 1px solid #339966;
+  border-radius: 12px;
+  color: white !important;
+  font-weight: bold;
+  background-color: #339966;
+}
+.btn--clear {
+  border: 1px solid #339966;
+  border-radius: 12px;
+  color: #339966 !important;
+  font-weight: bold;
+}
