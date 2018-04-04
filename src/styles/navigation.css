@@ -109,7 +109,7 @@
 .header__sub-menu-link-item:hover {
   background-color: rgba(0, 0, 0, 0.03);
 }
-@media screen and (max-width: 955px) {
+@media screen and (max-width: 970px) {
   .hamburguer-icon {
     display: block;
   }
@@ -117,7 +117,7 @@
     display: none;
   }
 }
-@media screen and (min-width: 955px) {
+@media screen and (min-width: 970px) {
   .header__nav-mobile {
     display: none;
   }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './styles/utilities.css';
-import { Navigation } from './components';
+import { Navigation, Hero } from './components';
 
 class App extends Component {
   render() {
@@ -31,9 +31,9 @@ class App extends Component {
           </div>
           <Navigation />
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <main>
+          <Hero />
+        </main>
       </div>
     );
   }
