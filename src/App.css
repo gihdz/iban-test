@@ -57,3 +57,19 @@
   width: 80%;
   padding-top: 10px;
 }
+@media screen and (max-width: 500px) {
+  .top-header {
+    height: 60px;
+  }
+  .top-header-content {
+    width: 100%;
+    text-align: center;
+  }
+  .header__mail,
+  .header__phone {
+    display: block;
+  }
+  .header__phone {
+    margin-bottom: 5px;
+  }
+}

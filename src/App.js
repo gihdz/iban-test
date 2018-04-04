@@ -10,7 +10,7 @@ class App extends Component {
           <div className="top-header">
             <div className="top-header-content">
               <span className="header__phone">
-                <i class="material-icons top-header-icon">local_phone</i>
+                <i className="material-icons top-header-icon">local_phone</i>
                 <span className="top-header-text">829-547-0135</span>
               </span>
 
@@ -19,7 +19,7 @@ class App extends Component {
                   href="mailto:hola@ibanonline.com"
                   className="top-header-mail-link"
                 >
-                  <i class="material-icons top-header-icon">
+                  <i className="material-icons top-header-icon">
                     local_post_office
                   </i>
                   <span className="top-header-text">hola@ibanonline.com</span>
