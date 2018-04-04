@@ -1,0 +1,59 @@
+.App {
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header__mail,
+.header__phone {
+  position: relative;
+}
+.top-header-icon {
+  font-size: 20px;
+  position: absolute;
+  top: -1px;
+}
+.top-header-text {
+  padding-left: 24px;
+}
+.top-header-mail-link:link,
+.top-header-mail-link:active,
+.top-header-mail-link:visited {
+  color: white;
+  text-decoration: none;
+}
+.top-header {
+  background-color: #444444;
+  color: white;
+  font-weight: 700;
+  height: 40px;
+}
+.top-header span:not(:last-child) {
+  margin-right: 15px;
+}
+.top-header-content {
+  max-width: 1080px;
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 10px;
+}
