@@ -75,6 +75,7 @@
   padding: 5%;
   font-weight: 700;
   font-size: 12px;
+  z-index: 9999;
 }
 .header__nav-list-mobile {
   list-style-type: none;

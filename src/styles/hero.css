@@ -3,8 +3,8 @@
 .section-hero__content {
   background-image: url('https://www.ibanonline.com.do/wp-content/uploads/2017/07/pexels-photo-small.jpg');
   background-size: cover;
-  height: 90vh;
-  max-height: 90vh;
+  /* height: 90vh;
+  max-height: 90vh; */
   background-position: center;
 }
 .section-hero__body {
@@ -21,7 +21,6 @@
 .section-hero__info {
   background-color: rgba(0, 0, 0, 0.2);
   max-width: 250px;
-  width: 100%;
   padding: 15px 30px;
   color: #fff;
   font-weight: 700;
@@ -35,4 +34,19 @@
 }
 .section-hero__info-text {
   vertical-align: middle;
+}
+.section-hero__calculator {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 480px) {
+  .section-hero__body {
+    width: 100%;
+  }
+  .section-hero__title {
+    text-align: center;
+    padding: 0 10px;
+  }
+  .section-hero__info {
+    max-width: none;
+  }
 }

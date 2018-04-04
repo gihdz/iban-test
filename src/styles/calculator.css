@@ -1,0 +1,73 @@
+.calculator {
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 550px;
+}
+.calculator__content {
+  padding: 20px 50px 35px 50px;
+}
+
+.calculator__title {
+  color: #fff;
+  font-weight: 400;
+}
+.calculator__input {
+  margin-bottom: 10px;
+}
+.calculator__amount {
+  margin-bottom: 20px;
+}
+.calculator__time {
+  margin-bottom: 20px;
+}
+.calculator__input-label {
+  float: left;
+  font-size: 10px;
+  color: #fff;
+  margin-top: 7px;
+}
+.calculator__input-box {
+  float: right;
+  background-color: #fff;
+  display: block;
+  padding: 5px 2px;
+  width: 103px;
+}
+.calculator__input-range {
+  display: table;
+}
+.calculator__input-range > *:not(:last-child) {
+  padding-right: 20px;
+}
+.calculator__input-range-icon-container {
+  display: table-cell;
+}
+.calculator__slider {
+  display: table-cell;
+  width: 100%;
+}
+.calculator__input-range-icon {
+  color: white;
+  cursor: pointer;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.rc-slider-handle {
+  position: relative;
+}
+.rc-slider-handle::before {
+  content: '< >';
+  position: absolute;
+  top: 4px;
+  color: gray;
+}
+.input-group:not(:last-child) {
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 480px) {
+  .calculator__content {
+    padding: 20px 25px 35px 25px;
+  }
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/hero.css';
+import Calculator from './Calculator';
 class Hero extends Component {
   render() {
     return (
@@ -9,9 +10,12 @@ class Hero extends Component {
             <h1 className="section-hero__title">
               Una solución a tus asuntos financieros.
             </h1>
+            <div className="section-hero__calculator">
+              <Calculator />
+            </div>
             <div className="section-hero__info">
               <p>
-                <i class="material-icons section-hero__check-icon">
+                <i className="material-icons section-hero__check-icon">
                   check_circle
                 </i>
                 <span className="section-hero__info-text">
@@ -19,7 +23,7 @@ class Hero extends Component {
                 </span>
               </p>
               <p>
-                <i class="material-icons section-hero__check-icon ">
+                <i className="material-icons section-hero__check-icon ">
                   check_circle
                 </i>
                 <span className="section-hero__info-text">
